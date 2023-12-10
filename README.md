@@ -9,6 +9,5 @@ Direct download for 3.10.10 for:
 For windows, please just copy and paste this into your terminal (windowskey + r, then run cmd and hit enter):
 
 ```
-powershell -Command "(Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/zackees/python3.10/main/winpyinstall310.bat' -OutFile 'winpyinstall310.bat') & .\winpyinstall310.bat"
 powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/zackees/python3.10/main/winpyinstall310.bat' -OutFile 'winpyinstall310.bat'; .\winpyinstall310.bat"
 ```
