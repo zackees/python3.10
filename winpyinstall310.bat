@@ -6,6 +6,6 @@ echo Downloading Python 3.10.10...
 powershell -Command "Invoke-WebRequest -Uri '%url%' -OutFile '%filename%'"
 
 echo Installing Python 3.10.10...
-start /wait %filename% /quiet InstallAllUsers=1 PrependPath=1
+start /wait %filename% /quiet PrependPath=1
 
 echo Installation complete.
